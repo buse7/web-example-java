@@ -549,10 +549,6 @@ public class Action extends CommonAction {
         }
       }
     }
-    
-    public void switchToMain() {
-      driver.switchTo().window(driver.getWindowHandle());
-    }
   }
 
   public class IFrame {

@@ -439,7 +439,6 @@ public class MemberPage {
         // TODO Auto-generated catch block
         e.printStackTrace();
       }
-      this.action.popup.switchToMain();
       return this;
     }
     return null;
