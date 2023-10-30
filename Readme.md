@@ -22,3 +22,8 @@ birthday= 회원정보 생년월일
 ./gradlew build
 ./gradlew test -Psuite
 ```
+
+## Report Run
+```
+./gradlew executeAllure
+```
