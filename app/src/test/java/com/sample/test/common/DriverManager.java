@@ -19,7 +19,7 @@ public class DriverManager {
         DriverLauncher driverLauncher = new DriverLauncher();
         WebCommonDriver driver = driverLauncher.launch();
         if (driver == null) {
-            Assert.fail("yata web driver 생성 실패. class=" + DriverManager.class);
+            Assert.fail("web driver 생성 실패. class=" + DriverManager.class);
         }
 
         this.driver = driver;
